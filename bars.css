@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 720px) {
+    #user-follow {
+        display: none;
+    }
+    #header {
+        top: 0;
+        background-color: white;
+        width: 100%;
+        max-width: 720px;
+        position: fixed;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #footer {
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        max-width: 720px;
+        border-top: 1px solid lightgray;
+    }
+    #navbar{
+        display: none;
+    }
+}
+
+.help {
+    width: 720px;
+    background-color: #A5D6D9;
+    margin: 0 auto;
+}
+
+/*#navbar {*/
+/*    background-color: #9C1A1C;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    border-bottom: 2px solid lightgray;*/
+/*}*/
+#navbar .nav-logo {
+    width: 10%;
+    margin-left: 10%;
+}
+
+#navbar .nav-logo img {
+    width: 100%;
+    display: block;
+    align-items: center;
+
+}
+
+.input-group {
+    background-color: lightgray;
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.input-group img {
+    width: 6%;
+    padding: 2% 5%;
+}
+
+.input-group .form-control {
+    border: none;
+    background-color: lightgray;
+    width: 85%;
+    margin: 0;
+    padding: 2%;
+}
+
+.icon-wrapper {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.icon-wrapper img {
+    display: block;
+    width: 10%;
+    margin-left: 5%;
+}
+
+#user-follow {
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    font-size: 10px;
+}
+
+#user-follow .user-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#user-follow .user-header .view-txt {
+    color: grey;
+}
+
+.follow-left img {
+    width: 40px;
+    height: 40px;
+    border-radius: 70%;
+    margin-right: 5%;
+
+}
+
+.follow-left {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.follow-lift h2 {
+    font-size: 10px;
+}
+
+.follow-left h5 {
+    font-size: 5px;
+    margin-top: -7%;
+    color: grey;
+}
+
+#user-follow .follow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follow .follow-right h2 {
+    color: dodgerblue;
+    font-weight: bold;
+}

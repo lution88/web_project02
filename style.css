@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 720px) {
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: white;
+    }
+    #navbar {
+        background-color: white;
+        width: 100%;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid lightgray;
+    }
+    #header {
+        display: none;
+    }
+    .post-wrapper{
+        display: block;
+        float: left;
+    }
+    #user-follow{
+        width: 30%;
+        background-color: lightgray;
+        position: absolute;
+        top: 6%;
+        left: 60%;
+
+        display: block;
+        float: left;
+    }
+    #container{
+        width: 60%;
+        border: none;
+    }
+    #story-container{
+        margin-top: 5%;
+        border: 1px solid grey;
+    }
+    #post-container{
+        padding-top: 5%;
+    }
+    #post-container .post-wrapper{
+        background-color: white;
+        border: 1px solid grey;
+        margin-bottom: 5%;
+    }
+#footer{
+    display: none;
+}
+}
+#whole-body {
+    max-width: 720px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*#header {*/
+/*    top: 0;*/
+/*    background-color: white;*/
+/*    width: 100%;*/
+/*    max-width: 720px;*/
+/*    position: fixed;*/
+/*    border-bottom: 1px solid lightgray;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
+
+#header .header-icon {
+    width: 6%;
+    margin: 3% 5%;
+}
+
+#header #logo {
+    width: 27%;
+}
+
+#container #story-container .story-wrapper .story-icon .icon-img {
+    width: 13vw;
+    max-width: 80px;
+    max-height: 80px;
+    height: 13vw;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(#f6f6f6, #f6f6f6),
+    linear-gradient(#c4c4c4, #c4c4c4);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+#story-container {
+    margin-top: 75px;
+    background-color: #f6f6f6;
+    padding-left: 1%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: 1px solid lightgray;
+}
+
+.story-wrapper {
+    margin: 2.5% 3%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.story-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.story-wrapper p {
+    margin-top: 10%;
+    margin-bottom: 0%;
+    font-size: 12px;
+}
+
+.post-header {
+    margin 1% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left-wrapper {
+    margin-left: 3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.post-header .left-wrapper img {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    margin: 0 3%;
+}
+
+.post-header .left-wrapper p {
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.right-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 3%;
+}
+
+.post-body img {
+    width: 100%
+}
+
+.post-body .post-icons-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.post-body .post-icons-wrapper .left-wrapper .post-icon {
+    width: 13%;
+    margin: 2% 4%;
+}
+
+.post-body .post-icons-wrapper .left-wrapper .post-icon2 {
+    width: 12%;
+    margin: 2% 4%;
+}
+
+.post-body .post-icons-wrapper .right-wrapper img {
+    width: 11%;
+    margin: 2% 4%;
+}
+
+.post-footer .post-like-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.post-footer .post-like-wrapper img {
+    width: 5%;
+    height: 5%;
+    border-radius: 60%;
+    border: 1px solid lightgray;
+    margin: 0 1%;
+}
+
+.post-footer .post-like-wrapper p {
+    margin: 2% 0;
+    font-size: 14px;
+}
+
+.post-footer .post-content-wrapper {
+    display: flex;
+}
+
+.post-footer .post-content-wrapper .post-user {
+    margin: 0% 2% 0% 2%;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.post-footer .post-content-wrapper .post-content {
+    margin: 0%;
+    font-size: 14px;
+}
+
+.post-footer .post-time {
+    color: gray;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+/*#footer {*/
+/*    background-color: white;*/
+/*    position: fixed;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*    max-width: 720px;*/
+/*    border-top: 1px solid lightgray;*/
+/*}*/
+
+#footer #icon-wrapper {
+    margin: 4% 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer #icon-wrapper img {
+    width: 6%;
+}
